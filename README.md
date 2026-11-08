@@ -1,2 +1,8 @@
-# wesal-new
-this is my first repository for first website
+# وصال WESAL
+مشروع واجهة عربية قابلة للتغليف كتطبيق Android باستخدام Capacitor.
+
+## بناء APK
+ارفع محتويات هذا المشروع إلى جذر مستودع GitHub، ثم افتح Actions وشغّل Build Wesal Android APK. بعد النجاح نزّل Artifact باسم Wesal-APK.
+
+## تنبيه وظيفي
+هذه حزمة بداية منظمة تحتوي واجهة التطبيق وإعداد بناء Android. المراسلة الفعلية والحسابات وجهات الاتصال والمجموعات والملفات والمكالمات تحتاج نشر خادم Flask وربط web/config.js بعنوان HTTPS للخادم، وإكمال واجهات API وSocket.IO وWebRTC قبل الاستخدام الإنتاجي. نجاح بناء APK وحده لا يعني أن الخدمات الخلفية تعمل.
